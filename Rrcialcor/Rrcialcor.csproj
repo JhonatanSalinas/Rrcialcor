@@ -58,6 +58,18 @@
     <Compile Include="Modulo 1.Designer.cs">
       <DependentUpon>Modulo 1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo 2.Designer.cs">
+      <DependentUpon>Modulo 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo 4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo 4.Designer.cs">
+      <DependentUpon>Modulo 4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo 5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,8 +82,26 @@
     <Compile Include="Modulo 3.Designer.cs">
       <DependentUpon>Modulo 3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo 6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo 6.Designer.cs">
+      <DependentUpon>Modulo 6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo 2.resx">
+      <DependentUpon>Modulo 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo 4.resx">
+      <DependentUpon>Modulo 4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo 6.resx">
+      <DependentUpon>Modulo 6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -80,6 +110,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -93,6 +124,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iniciar.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
